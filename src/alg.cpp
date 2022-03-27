@@ -7,7 +7,7 @@ if (arr[i] + arr[j] == value)
 count++;
 }
 }
-return cout;
+return count;
 }
 int countPairs2(int *arr, int len, int value) {
 int count = 0;
